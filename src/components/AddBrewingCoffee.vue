@@ -39,9 +39,27 @@ export default {
           {
             type: 'input',
             inputType: 'text',
-            label: 'Name',
-            model: 'name',
-            placeholder: 'Your name',
+            label: 'Coffee Name',
+            model: 'coffee-name',
+            placeholder: 'Coffee name',
+            featured: true,
+            required: true
+          },
+          {
+            type: 'input',
+            inputType: 'text',
+            label: 'Region & Country',
+            model: 'region-country',
+            placeholder: 'Region and/or country',
+            featured: true,
+            required: true
+          },
+          {
+            type: 'input',
+            inputType: 'text',
+            label: 'Producer',
+            model: 'producer',
+            placeholder: 'Producer',
             featured: true,
             required: true
           },
