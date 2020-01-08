@@ -3,7 +3,9 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <BrewingCoffee/>
-    <AddBrewingCoffee/>
+
+    <modal-brew-coffee>
+    </modal-brew-coffee>
   </div>
 </template>
 
@@ -17,7 +19,7 @@ export default {
   components: {
     HelloWorld,
     BrewingCoffee,
-    AddBrewingCoffee
+    'modal-brew-coffee' : AddBrewingCoffee
   }
 }
 </script>
