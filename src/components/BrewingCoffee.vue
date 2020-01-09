@@ -1,6 +1,7 @@
 <template>
   <div id="brewing-coffee" class="">
     Brewing Your Coffee
+    <a href="addcoffee">Add New Brew</a>
   </div>
 </template>
 

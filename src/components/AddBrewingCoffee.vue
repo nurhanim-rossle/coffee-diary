@@ -148,6 +148,7 @@ export default {
                     id: "fragance",
                     label: "Fragance",
                     model: "fragance",
+                    hint: "Note: Fragance is the scent of coffee grounds before water is added",
                     help: "Fragance is the scent of coffee grounds before water is added"
                 },
                 {
