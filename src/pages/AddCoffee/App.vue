@@ -7,13 +7,24 @@
 </template>
 
 <script>
+import { db } from '@/assets/js/db'
 import AddBrew from './components/AddBrew.vue'
 
 export default {
   name: 'addcoffee',
   components: {
-	AddBrew
-  }
+    AddBrew
+  },
+
+  data() {
+    return {
+      documents: [],
+    }
+  },
+
+  firestore: {
+    documents: db.collection('documents'),
+  },
 }
 </script>
 

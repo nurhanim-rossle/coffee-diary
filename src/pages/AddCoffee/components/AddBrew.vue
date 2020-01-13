@@ -141,6 +141,7 @@ export default {
 					id: "aroma",
 					label: "Aroma",
 					model: "aroma",
+					hint: "Note: Aroma is the scent of coffee grounds after water is added",
 					help: "Aroma is the scent of coffee grounds after water is added"
 				}
 			]
