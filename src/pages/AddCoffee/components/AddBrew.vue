@@ -148,14 +148,15 @@ export default {
 		},
 	]
 		},
-		formOptions: {
-		validateAfterLoad: true,
-		validateAfterChanged: true,
-		validateAsync: true
+			formOptions: {
+			validateAfterLoad: true,
+			validateAfterChanged: true,
+			validateAsync: true
+			}
 		}
 	}
-	}
 }
+
 </script>
 
 <style module>
